@@ -1,0 +1,7 @@
+{
+   "views" : {
+      "all" : {
+         "map" : "function (doc, meta) {if(doc._class == \"net.vandieten.couchbasedemo.entity.Car\") {emit(meta.id, null);}}"
+      }
+   }
+}
